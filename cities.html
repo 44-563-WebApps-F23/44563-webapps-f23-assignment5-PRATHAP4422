@@ -17,6 +17,42 @@
 </head>
 <body>
     <h1>Visit cities with saiprathap reddy pulagam</h1>
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="cities.html">A few cities</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarid" aria-controls="navbarid" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarid">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item nav-link active">
+
+            <a class="nav-link active" href="basic.html">Basic</a>
+
+          </li>
+
+          <li class="nav-item nav-link active">
+
+            <a class="nav-link active" href="advanced.html">Advanced</a>
+
+          </li>        
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
 
 <div class="container">
     <div class="row">
@@ -40,18 +76,165 @@
 </div>
 <p>city name break's first</p>
 <p>City names break first as they were assigned medium column grid so when we minimise the screen to small screen they break as they are medium grid but the letters will not break as they are given the small grid. </p>
-<div class="container">
-    <img class="img-fluid" src="adeleide.jpg" height="400px" width="500px" alt="adelaide">
-    <img class="img-fluid" src="los.jpg" height="400px" width="500px" alt="losangeles">
-    <img class="img-fluid" src="paris.jpg" height="400px" width="500px" alt="paris">
+<div class="img-container">
+    <img class="img-fluid" src="adeleide.jpg" height="400px" width="400px" alt="adelaide">
+    <img class="img-fluid" src="losangeles.jpg" height="400px" width="400px" alt="losangeles">
+    <img class="img-fluid" src="paris.jpg" height="400px" width="400px" alt="paris">
 </div>
 
-    <div class="container">
-    <img class="img-thumbnail" src="adeleide.jpg" height="200px" width="200px" alt="adelaide">
-    <img class="img-thumbnail" src="los.jpg" height="200px" width="200px" alt="losangeles">
-    <img class="img-thumbnail" src="paris.jpg" height="200px" width="200px" alt="paris">
+    <div class="img-container">
+    <img class="img-thumbnail" src="adeleide.jpg" height="400px" width="400px" alt="adelaide">
+    <img class="img-thumbnail" src="losangeles.jpg" height="400px" width="400px" alt="losangeles">
+    <img class="img-thumbnail" src="paris.jpg" height="400px" width="400px" alt="paris">
 </div>
 
+<table class="table table-striped table-bordered table-hover caption-top table-hover table-condensed table-responsive">
+    <caption>Table part</caption>
+    <thead class="thead-light">
+
+    
+    <tr>
+        <th scope="col" class="table-dark">Letter</th>
+        <th scope="col" class="table-dark">City</th>
+        <th scope="col" class="table-dark">River</th>
+        <th scope="col" class="table-dark">Tree</th>
+        
+        
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <th scope="row" class="table-info">p</th>
+        <td class="table-info">paris</td>
+        <td class="table-info">Pocasset</td>
+        <td class="table-info">Pepino</td>
+    </tr>
+    <tr>
+        <th scope="row" class="table-warning">u</th>
+        <td class="table-warning">uppsala</td>
+        <td class="table-warning">Ugashik</td>
+        <td class="table-warning">ulex</td>
+    </tr>
+    <tr>
+        <th scope="row" class="table-secondary">l</th>
+        <td class="table-secondary">los angeles</td>
+        <td class="table-secondary">la crosse </td>
+        <td class="table-secondary">lilac</td>
+    </tr>
+    <tr>
+        <th scope="row" class="table-success">a</th>
+        <td class="table-success">adelaide</td>
+        <td class="table-success">Aberjona</td>
+        <td class="table-success">alacia</td>
+    </tr>
+    <tr>
+        <th scope="row" class="table-danger">g</th>
+        <td class="table-danger">gilbert</td>
+        <td class="table-danger">genesee</td>
+        <td class="table-danger">glorybower</td>
+    </tr>
+    <tr>
+        <th scope="row" class="table-primary">a</th>
+        <td class="table-primary">alasaka</td>
+        <td class="table-primary">alophia</td>
+        <td class="table-primary">acushnet</td>
+    </tr>
+</tbody>
+</table>
+<h4>Button groups</h3>
+<div class="btn-toolbar">
+    <div class="btn-group btn-toolbar">
+    
+    <button type="button" class="btn btn-success">P</button>  
+    <button type="button" class="btn btn-success">U</button>
+    <button type="button" class="btn btn-success">L</button>
+
+    
+    </div>
+    
+    <div class="btn-group btn-toolbar">
+    <button type="button" class="btn btn-warning">A</button>
+    <button type="button" class="btn btn-warning">G</button> 
+    </div>
+    
+    <div class="btn-group btn-toolbar">
+    <button type="button" class="btn btn-danger">A</button>
+    </div>
+</div>
+    
+    <br>
+    
+    <div class="btn-group dropdown" role="group">
+    
+        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+    
+            Dropdown
+          </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="basic.html">Bootstrap Basic sample page link</a></li>
+            <li><a class="dropdown-item" href="advanced.html">Bootstrap Advanced sample page link</a></li>
+       </ul>
+    </div>
+    
+    <br>
+    
+    <br>
+    
+    
+    <form>
+     <div class="mb-3 form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3 form-group">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city" placeholder="Enter your city">
+     </div>
+    <div class="mb-3 form-check">
+     <input type="checkbox" class="form-check-input" id="checkbox">
+      <label class="form-check-label" for="checkbox">Sign up for newsletter? </label>
+     </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>  
+    <br>
+     <h4>BONUS</h4>
+    <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card">
+            <div class="card-body">
+            <h2 class="card-title">Paris</h2>
+             <img src="paris.jpg" class="card-img-top" alt="Parisimg">
+             <p class="card-text">Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+             <a href="https://en.wikipedia.org/wiki/Paris" class="btn btn-primary">More details on Paris</a>            
+            </div>
+    </div>
+      </div>
+    
+            <div class="col-sm-4 mb-3 mb-sm-0">    
+            <div class="card">
+            <div class="card-body">
+            <h2 class="card-title">Los Angeles</h2>
+            <img src="losangeles.jpg" class="card-img-top" alt="losanglesimg">
+             <p class="card-text">With roughly 3.9 million residents within the city limits as of 2020, 
+                        Los Angeles is the second-most populous city in the United States.</p>
+            <a href="https://en.wikipedia.org/wiki/Los_Angeles" class="btn btn-primary">More details on card</a>    
+         </div>
+             </div>
+            </div>
+        <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+        <div class="card-body">
+        <h2 class="card-title">Adelaide</h2>
+        <img src="adeleide.jpg" class="card-img-top" alt="adeleideimg">
+       <p class="card-text">Adelaide, as the capital of South Australia, is the seat of the Government of South Australia.</p>
+        <a href="https://en.wikipedia.org/wiki/Adelaide" class="btn btn-primary">More details on card</a>
+        
+            </div>
+    
+          </div>
+    </div>
+</div>
 
 </body>
 </html>
